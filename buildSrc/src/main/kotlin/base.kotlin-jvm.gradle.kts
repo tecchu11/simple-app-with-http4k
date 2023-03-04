@@ -3,6 +3,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     kotlin("jvm")
     id("base.maven")
+    id("base.detekt")
 }
 
 dependencies {

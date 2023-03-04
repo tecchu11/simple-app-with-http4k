@@ -1,5 +1,6 @@
 plugins {
     id("base.app")
+    id("base.jib")
 }
 
 application {
