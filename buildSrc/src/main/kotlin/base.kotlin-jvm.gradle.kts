@@ -6,10 +6,6 @@ plugins {
     id("base.detekt")
 }
 
-dependencies {
-    testImplementation("org.junit.jupiter:junit-jupiter:5.9.1")
-}
-
 group = "com.example.tecchu11"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_17
